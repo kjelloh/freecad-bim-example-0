@@ -1,0 +1,1 @@
+# freecad-bim-example-0
