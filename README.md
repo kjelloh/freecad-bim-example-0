@@ -80,3 +80,29 @@ Note: I did not expect this and wondered where the sketch went?
 	==> The 'Offset' tool looks like an old ink pen?
 
 ![](/images/image-12.png)
+
+==> The 'Add offset constraint' of the 'Offset Geometry' tool parameters is a little opaque (and unexpected)?
+
+![](/images/image-13.png)
+
+It seems the 'Add offset constraints' inserts something that looks like construction lines that allow us to later change (access) the set constrains?
+
+![](/images/image-14.png)
+
+Question is why this is an option and not always there (like in Fusion 360 where you can always access previous operations parameters)?
+
+	==> It seems a 'Symmetric constraint' between a line and a point is to place the point at the center of the line?
+
+I expected a 'symmetric constraint' to involve three items. The two items to be 'symmetrically constrained' and the item two witch the two items are symmetric. Why is this not so here? A 'symmetric constraint' between an end point of the construction line of the offset constraint on one hand, and the edge line or the other, does not translate to placing the end point at the center of the edge in my head?
+
+	==> It seems after closing the sketch all construction lines and measurements are made invisible (only plain lines show)
+
+I am confused so much of the sketch 'disappears'  when I close it?
+
+	==> The 'Wall' tool operates on the whole sketch (not a shape like in Fusion 360)
+
+	==> The presenter in the video does NOT extrude a sketched wall, but a sketch inner perimeter + a wall widths
+
+I wonder why he did not sketch the wall cross section and then extrude it like I would have done in Fusion 360?
+
+Also, By applying the Wall tool to the inner perimeter we have to repeat the 20 cm wall thickness we already sketched. What if we change the sketch to indicate a thicker wall? Then this will NOT affect the actual Wall created by the tool? This kind of rubs me the wrong way?
