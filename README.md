@@ -106,3 +106,28 @@ I am confused so much of the sketch 'disappears'  when I close it?
 I wonder why he did not sketch the wall cross section and then extrude it like I would have done in Fusion 360?
 
 Also, By applying the Wall tool to the inner perimeter we have to repeat the 20 cm wall thickness we already sketched. What if we change the sketch to indicate a thicker wall? Then this will NOT affect the actual Wall created by the tool? This kind of rubs me the wrong way?
+
+==> The tutorial requires the user to have the exterior wall plans to place them 'unguided' (on their own)
+
+![](/images/image-15.png)
+
+This is the front exterior wall plan
+
+
+![](/images/image-16.png)
+
+This is the back side exterior wall plan
+
+![](/images/image-17.png)
+
+This is the right exterior wall plan
+
+![](/images/image-18.png)
+
+This is the left exterior wall plan
+
+
+![](/images/image-19.png)
+
+
+The House I had created up to the point of guided in detail by the presenter in the video 
