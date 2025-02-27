@@ -338,3 +338,11 @@ The 'Apply Geometric Hash to Face' often refuses to show a dialog.
 
 For now this feature in FreeCad 1.0 on macOS Apple Silicone is BROKEN! ...
 
+    ==> ChatGPT seems to agree?
+
+Is FreeCad 1.0 on apple silicone broken for the TechDraw workbench and techdraw pages?
+ChatGPT said:
+
+Searched 1 site
+Yes, FreeCAD 1.0 on Apple Silicon has reported issues with the TechDraw workbench, including freezing and crashes when working with TechDraw pages. Users have experienced freezes when changing render modes in TechDraw_ArchView and redrawing pages. Additionally, there are reports of crashes related to functions like Cosmetic_Circle, which affect TechDraw views. These issues appear to be present across multiple platforms, not just Apple Silicon【5】. If you're encountering problems, consider checking for updates or workarounds in the FreeCAD community.
+
