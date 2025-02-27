@@ -220,3 +220,121 @@ My house 3D model so far.
 ![](/images/image-27.png)
 
 The 3D model as a top folder with the root folder 'House' in it.
+
+
+	==> It seems the 'Section Plane' tool is in the 'Annotation Tools' tool bar?
+
+![](/images/image-28.png)
+
+The 'Annotation tools' tool bar
+
+
+![](/images/image-29.png)
+
+The 'Section Plane' tool in the  'Annotation Tools' tool bar.
+
+	==> It seems the 'Section Plane' is shown in the view as a green plane?
+
+![](/images/image-30.png)
+
+A created section plane at z-height 100 cm.
+
+	==> It seems the presenter sugests we projekt the selected objects to the XY-plane (as opposed to create a 'cross section')?
+
+![](/images/image-31.png)
+
+	==> It seems we move the created 'Shape2DView' with right click and then click 'Transform' (NOT use the 'Move' tool)?
+
+![](/images/image-32.png)
+
+The 'Transform' tool to translate the created 'Shape2DView'.
+
+Note: The semantics is a little opaque to me here. Why is this a 'view' and not 'a thing' like a drawing or a projection or what have you. A 'view' indicates it will change with changes to the 3D model? Maybe?
+
+	==> AHA! At 45:27 the presenter discovers the error in width of the left inner wall opening (that I already fixed above) :)
+
+![](/images/image-33.png)
+
+In the generated floor plan the presenter discovers the notch into the wall due to the 'too wide' opening (that I already fixed in my model above) :)
+
+	==> It seems 'showing the swing plan' of doors is a property of the door itself (and not of the generator of the floor plan)?
+
+![](/images/image-34.png) ![](/images/image-35.png)
+
+By setting 'Symbol Plan' of each door property it shows up on the created 'Shape2DView' with an accompanying  a 'swing path'
+
+AHA! They show up also in the 3D model! So that is way they show also on this 2D 'view'?!
+
+	==> The presenter sugests I draw the floor plan in the 'TechDraw' workbench.
+
+![](/images/image-36.png)
+
+The 'TechDraw' workbench in the Workbench drop down.
+
+Note: At this stage it is a bit strange that we have the 'view' just sitting around beside the 3D model...?
+
+Why is the work flow not to create a 'drawing' directly. That is, have the 'view' project directly into a separate 'thing'?
+
+	==> It seems we now finally actually create a 'page' for the floor plan drawing?
+
+![](/images/image-37.png)
+
+The 'Insert Default Page' in the 'TechDraw' workbench.
+
+Note: The semantics here seems to be that we first have a 'view' created in the 3D view. Then we create a 'Page' to put the view on? Well, lets see...
+
+	==> It seems we use the 'Insert View' with the 'Shape2DView' selected in the model tree?
+
+
+
+![](/images/image-38.png)
+
+The 'Insert View' in the 'Techdraws Views' tool pane.
+
+![](/images/image-39.png)
+
+Note: The semantics is again a bit vague? The 'Insert View' tool is a member of the 'TechDraw' workbench that takes a 'Shape2DView' as an argument? But where is it inserted? I imagine we can have several 'Pages' created in (by?) the 'TechDraw' workbench? 
+
+Also, the 'Shape2DView' is still some strange unknown thing sitting around in the 3D view... 
+
+Well, let's continue!
+
+	==> It seems the font size for 'Dimensions' are set to 20 cm by default?
+
+![](/images/image-40.png)
+
+The presenter showed how inserted dimensions in the 'Page' with the 'View' is by default HUGE!
+
+And they were also for me. This is unprofessional! 
+
+Is the semantics here that the font is measured in the same scale as the thing we are viewing? That is, the 3D model of the house is many meters. So a label with a font size of 20 cm will look just fine in 'real life'? Well, I find this confusing? I mean, we are 'drawing' a 'view', not the real object?
+
+
+	==> It seems to be several Issues with the Font and Stability of the 'Page' Dimensions?
+
+My font for Label and Dimensions looked strange and was clipped.
+
+![](/images/image-41.png)
+
+It turned out that my macOS FreeCad 1.0 came with a 'TechDraw' workbench default font was 'Academy Engraved LET' (and that made measurement text be clipped).
+
+![](/images/image-42.png)
+
+I changed to 'Arial'
+
+![](/images/image-43.png)
+
+...
+
+	==> OK - My FreeCad on macOS (Apple Silicone) is really unstable in 'TechDraw' and 'Page' edit!
+
+Dimensions become 'inactive' and uneditable (although I can continue creating new ones)
+
+Often the all the tools in 'TechDraw' workbench (or is it tools for the 'Page') gets inactive (and I have to restart FreeCad to get them usable again)
+
+The 'Apply Geometric Hash to Face' often refuses to show a dialog.
+
+![](/images/image-44.png)
+
+For now this feature in FreeCad 1.0 on macOS Apple Silicone is BROKEN! ...
+
