@@ -150,3 +150,43 @@ The placing of 'windows' (doors and windows) was tricky. Sometimes I managed to 
 ![](/images/image-20.png)
 
 My house after having created and placed all remaining windows and doors (all glass).
+
+
+	==> A 'Hole Depth' for a door may cut through more than the wall the door is placed on (s t r a n g e)!
+
+The video points out we need to address this problem by changing the 'Hole depth' from 0,00 cm to 10 cm! And in this way (somehow) the 'Hole Depth' is reduced?! Now this is of course totally unprofessional behaviour of a CAD tool...
+
+![](/images/image-21.png)
+
+Note: The presenter explains that this behaviour comes from 'the walls' not being separate walls. But in fact a 'single wall'. I suppose this comes from us creating the interior walls from a single sketch? Still, for some reason this behaviour was not observed when I created the doors to the side rooms? Why did those doors not cut also the opposite walls? Strange...
+
+	==> I had a problem with the first opening (the 115 cm wide one to the left)
+
+The internal wall plan sketch had the correct width of 115 cm from the inside wall to the internal wall center line.
+
+![](/images/image-22.png)
+
+But this means the actual opening is 110 cm in my drawing. I failed to figure out why the presenter does not mention that a 115 cm opening is 5 cm to large? That is, if I have somehow generated the internal walls incorrect as 'centered'. Still, the other larger opening fits with my opening so centered walls seems ok there? Anyhow, I changed my 'left opening' to 110 cm.
+
+	==> It seems selecting an 'opening' does not show in the view (that is, I fail to see any highlighting of the selected opening)?
+
+Maybe a plain opening has 'no substance' and therefore has nothing to be highlighted? Still, it is confusing...
+
+	==> The 3D/BIL tool ribbon 'Roof' tool applies to a whole sketch.
+
+	==> It seems if I enter a bad formatted value in the 'Roof' properties dialog its contents disappear?
+
+I am in Sweden so I tried entering '6,5' degrees roof slope (but I needed to enter '6.5' with '.' decimal separator otherwise the content disapperaed).
+
+I tried entering '30 cm' for roof thickness (but this seems invalid as the dialog content went invisibale).
+
+Note: The fix was to close and open (double click)  the 'Roof' item again.
+
+
+	==> On macOS <Command> + <click> allows for selecting multiple items in the items tree. 
+
+	==> I succeeded to cut the external and internal walls to the roof.
+
+![](/images/image-23.png)
+
+My house looked like this after having finished the roof (before adding backside slab and front and back stairs)
