@@ -131,3 +131,22 @@ This is the left exterior wall plan
 
 
 The House I had created up to the point of guided in detail by the presenter in the video 
+
+
+	==> To add the remaining windows and doors was like struggling with an annoying puppy...
+
+Although you select to create a 'door' you get an option pane for a 'window' which seems how it is supposed to be?
+
+Editing the width and height of a 'window' is a bit tricky. If you try to scroll the option pane you often accidentally change some other value by having the cursor placed over the value edit box (scrolling inside a value box 'scrolls' the value). Also, the value is not selected when clicking in the value box. And if you hit <Ctrl>-A to select 'all' and enters a value it will be interpreted as millimeter. You have to remember to re-add 'cm' for centimeters to have the value be correct. This is a bit strange as we have set the 'default' in the FreeCad 'Preferences' to 'cm'?
+
+I also managed to get a lot of 'garbage' sketches and windows outside the container where I was working (the EXT WALL container). I am not sure why but it seems any failure to commit any window creation leases 'half baked' or 'residue' windows and sketches? Well, I was able to delete them manually at least.
+
+The 'type' of window or door to create was confusing. Looking at the video it seems all doors should be of 'glass' which seems to correspond to the type 'fixed'? I am not sure. It seemed like a guessing game.
+
+The placing of 'windows' (doors and windows) was tricky. Sometimes I managed to align with an existing window or door upper frame by enabling 'snap endpoint' in the 'Draft' tool pane plus pressing 'z' to lock the movement to the z-axis. But it was not easy and often ended with a failure (and the residue sketches and windows was created in the items tree).  
+
+	==> Still, with some patient I was able to create doors and windows that at least looks like the ones in the video?
+
+![](/images/image-20.png)
+
+My house after having created and placed all remaining windows and doors (all glass).
