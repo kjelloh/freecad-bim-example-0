@@ -190,3 +190,33 @@ Note: The fix was to close and open (double click)  the 'Roof' item again.
 ![](/images/image-23.png)
 
 My house looked like this after having finished the roof (before adding backside slab and front and back stairs)
+
+	==> It seems we should create a flight of Stairs with NO sketch or other item selected? 
+
+I had folder 'INT WALLS' selected. Then when I clicked the 'Stairs' tool in the '3D/BIM' tool bar a 'Stairs' folder was created outside the folder. BUT - no stair could be seen in the view of the house? But if I clicked the 'Stair' tool with no item selected, then a default stair was created at origo.
+
+![](/images/image-24.png)
+
+The default flight of stairs created at origo when clicking the 'Stair' tool in '3D/BIM' tool bar while NO item in the items tree was selected.
+
+	==> It seems a flight of stairs with 'Number of steps' set to 4 shows 3 steps?
+
+![](/images/image-25.png)
+
+A 'Stairs' object with 'Number Of Steps' set to 4 shows a flight of stars with 3 steps?
+
+	==> Command+C and Command+V on macOS works for 'copy-and'paste' on the 'Stairs' object in the tree view.
+
+	==> AHA! Objects are NOT 'Dragged and Dropped' but 'Selected-and-moved'!
+
+Until this point I had tried to 'drag-and-drop' objects when using the 'Move' tools. But this is NOT how to use them. You have to 1) Select the object to move. 2) Click the 'Move' tool button. 3) Click a reference point on the object to move. 4) Then select the reference point on the target where to move to. That is, you shall NOT hold down the mouse button while moving the object! Took me a while to figure out...
+
+	==> I now have the whole 3D house modelled and organised into a top folder '3D MODEL'
+
+![](/images/image-26.png)
+
+My house 3D model so far.
+
+![](/images/image-27.png)
+
+The 3D model as a top folder with the root folder 'House' in it.
