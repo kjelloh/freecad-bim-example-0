@@ -346,3 +346,65 @@ ChatGPT said:
 Searched 1 site
 Yes, FreeCAD 1.0 on Apple Silicon has reported issues with the TechDraw workbench, including freezing and crashes when working with TechDraw pages. Users have experienced freezes when changing render modes in TechDraw_ArchView and redrawing pages. Additionally, there are reports of crashes related to functions like Cosmetic_Circle, which affect TechDraw views. These issues appear to be present across multiple platforms, not just Apple Silicon【5】. If you're encountering problems, consider checking for updates or workarounds in the FreeCAD community.
 
+	==> It seems I have to expand folders to have items in folders be selected for insertion (using the 'TechDraw' workbench 'Insert View' tool)?
+
+
+![](/images/image-45.png)
+
+![](/images/image-46.png)
+
+To select items in folders of the items tree you have to expand the folders to expose the contained items...
+
+
+	==> AHA! The 'Current' page is defined by the page tab in the center pane (it is just not selected in the items tree)
+
+![](/images/image-47.png)
+
+The 'Page001' tab is 'in focus' (i.e., 'current') although it is not selected in the items tree...
+
+![](/images/image-48.png)
+
+'Page001' NOT selected in the items tree (but still 'current' because it is the shown tab in the main window)
+
+	==> It seems to make the drawing look good I need to change the 'Line Width' from 0,07 cm to 0,02 cm?
+
+	==> It seems the line width of the drawing of the view on the page is determioned by the 'Line Width' in the 'view' pane of the view item properties?
+
+![](/images/image-49.png)
+
+The 'Line Width' in the 'View' properties of the view named 'Front' in the items tree.
+
+Note: The semantics is a little messy. There is a tab named 'View' in the properties pane of the selected 'view' item. But these are not 'views' in the same sense. I need more learning to be comfortable with this Freecad way of modelling its user interface...
+
+Also note: I still find it confusing that the drawing in the page is concerned with a line width in cm? I kind of don't care. I want the line of the drawing to be readable, not be in some scale in reference to the reality of the model I am viewing through the drawing? 
+
+Well, maybe this is something historic in relation to technical drawings?
+
+	==> It seems Freecad 1.0 keeps locking up when I add items to a 'page' in 'TechDraw' workbench?
+
+When creating the front and side views of the house FreeCad fails to show the insert 
+
+	==> It seems to edit the members of a view I need to go to the property 'Source' in the 'Data' tab of the view item property?
+
+![](/images/image-50.png)
+
+The 'view4' member of a 'page' has the property 'Source' in the 'Data' tab that defines what items are added to 'View004'
+
+	==> Freecad 1.0 on macOS apple silicone always crashes on 'Print to pdf' on my machine (But export pdf works fine)
+
+![](/images/image-51.png)
+
+'Export PDF' when right clicking inside a 'tech draw' page. 
+
+	==> This concludes my work through of this tutorial :)
+
+![](/images/image-52.png)
+
+My final house model (with the floor plan projection 'hanging out' by the side)
+
+Note: I am still a little confused what the 'projection' is doing in the 3D view (it seems to be a strange 'creature' with no proper home)...
+
+Note: I plan to try the beta of Freecad 1.1 to see if the crach and locking and instabiltity issues has been somewhat adressed?
+
+
+
